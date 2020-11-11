@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Infra World Runtime",
+	"Description": "RPC protocol integration for various platforms. Contains headers and linked static libs for usage outside the plugin's domain. You should add the dependency of this to your target plugin or game.",
+	"Category": "Generic",
+	"CreatedBy": "Roman Chehowski, Nikita Miroshnichenko",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "InfraworldRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}
